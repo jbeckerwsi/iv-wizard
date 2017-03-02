@@ -1,0 +1,59 @@
+mcc -C -o IV_Wizard -W WinMain:IV_Wizard -T link:exe -d C:\matlab-programs\jonathan\IV-Wizard\IV_Wizard\for_testing -v C:\matlab-programs\jonathan\IV-Wizard\iv_wizard.m -a C:\matlab-programs\jonathan\IV-Wizard\iv_wizard.fig -a C:\matlab-programs\jb-suite\drivers\keithley_2000_beta.mdd -a C:\matlab-programs\jb-suite\drivers\knick_s252.mdd -a C:\matlab-programs\jb-suite\drivers\yokogawa_7651.mdd 
+Compiler version: 6.1 (R2015b)
+
+Dependency analysis by REQUIREMENTS.
+
+[Warning: Adding path "C:\matlab-programs\jonathan\IV-Wizard" to Compiler path
+instance.] 
+[] 
+Parsing file "C:\matlab-programs\jonathan\IV-Wizard\iv_wizard.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 39 temporary MEX authorization files.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d47833_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d46593_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d44428_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d422337_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d42192_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d427453_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d41561_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d414540_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d429448_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d430921_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d42009_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d4155_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d420403_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d425897_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d43463_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d428220_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d411679_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d415903_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d41819_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d418788_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d417600_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d432309_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d414499_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d422690_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d416316_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d422107_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d42858_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d411627_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d417547_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d41459_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d428176_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d413098_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d49272_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d47984_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d422099_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d416762_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d429762_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d419810_6356.auth'.
+Removing: 'C:\Users\PROBES~1\AppData\Local\Temp\mathworks_tmp_018d417164_6356.auth'.
+Generating file "C:\matlab-programs\jonathan\IV-Wizard\IV_Wizard\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Program Files\MATLAB\R2015b\toolbox\compiler\Resources\default_icon.ico to C:\matlab-programs\jonathan\IV-Wizard\IV_Wizard\for_testing\IV_Wizard.exe.
+Attempting to embed the CTF archive into the application C:\matlab-programs\jonathan\IV-Wizard\IV_Wizard\for_testing\IV_Wizard.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at C:\matlab-programs\jonathan\IV-Wizard\IV_Wizard\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 55 seconds.
