@@ -22,7 +22,7 @@ function varargout = iv_wizard(varargin)
 
 % Edit the above text to modify the response to help iv_wizard
 
-% Last Modified by GUIDE v2.5 22-Feb-2017 19:43:21
+% Last Modified by GUIDE v2.5 27-Sep-2018 15:10:51
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -118,6 +118,9 @@ if sweepFrom > sweepTo
     sweepStep=-sweepStep;
 end
 V=sweepFrom:sweepStep:sweepTo;
+if get(handles.hysteresis,'Value') > 0.5
+    V=[V fliplr(V)];
+end
 
 complianceUpper  =1E-6*str2num(get(handles.complianceUpper,'String'));
 complianceLower  =1E-6*str2num(get(handles.complianceLower,'String'));
@@ -627,3 +630,12 @@ if ~isempty(idx)
 end
 catch
 end
+
+
+% --- Executes on button press in hysteresis.
+function hysteresis_Callback(hObject, eventdata, handles)
+% hObject    handle to hysteresis (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of hysteresis

@@ -1,9 +1,9 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="426762729" file="C:\matlab-programs\jonathan\IV-Wizard\IV_Wizard.prj" location="C:\matlab-programs\jonathan\IV-Wizard" name="IV_Wizard" preferred-package-location="C:\matlab-programs\jonathan\IV-Wizard\IV_Wizard\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="2631604127" file="C:\matlab-programs\jonathan\IV-Wizard\IV_Wizard.prj" location="C:\matlab-programs\jonathan\IV-Wizard" name="IV_Wizard" preferred-package-location="C:\matlab-programs\jonathan\IV-Wizard\IV_Wizard\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>IV_Wizard</param.appname>
     <param.icon />
     <param.icons />
-    <param.version>1.03</param.version>
+    <param.version>1.04</param.version>
     <param.authnamewatermark>Jonathan Becker</param.authnamewatermark>
     <param.email>jonathan.becker@wsi.tum.de</param.email>
     <param.company>WSI</param.company>
